@@ -4,7 +4,7 @@ public class EjercicioArregloElementoMayorOcurrencia {
 
     public static void main(String[] args) {
 
-        Integer[] arreglo = new Integer[7];
+        Integer[] arreglo = new Integer[10];
 
         Scanner teclado = new Scanner(System.in);
 
@@ -26,7 +26,6 @@ public class EjercicioArregloElementoMayorOcurrencia {
                     cant++;
                 }
             }
-
                 aux[i]=cant;
             }
         //obtenemos el valor del elemento veces repetido
